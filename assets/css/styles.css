@@ -8,6 +8,7 @@
     --paragraph-color: #7D889E;
     --title-size: 1.375rem;
     --paragraph-size: 1rem;
+    --fonts: Outfit, Roboto, Arial;
 }
 
 html {
@@ -53,7 +54,7 @@ body{
 }
 
 .card .text-container > h1 {
-    font-family: Outfit;
+    font-family: var(--fonts);
     font-size: var(--title-size);
     font-weight: bold;
     color: var(--title-color);
@@ -62,7 +63,7 @@ body{
 }
 
 .card .text-container > p {
-    font-family: Outfit;
+    font-family: var(--fonts);
     font-size: var(--paragraph-size);
     font-weight: normal;
     color: var(--paragraph-color);
